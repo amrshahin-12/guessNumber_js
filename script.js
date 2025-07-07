@@ -105,6 +105,7 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.guess').value = '';
   //new random number
   randomNum = getRandNumber();
+//for testing the game functionality
   console.log(randomNum); //new rand
   //re-enable buttons
   inputValueEl.disabled = false;
@@ -113,6 +114,7 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('body').style.backgroundColor = originalBackground;
   document.querySelector('.number').style.width = originalWidth;
 });
+//for testing the game functionality
 console.log(randomNum);
 
 //the help button
