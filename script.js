@@ -38,8 +38,9 @@ const checkSameInput = function () {
     if (lastInput[i] === inputValueEl.value) {
       responsiveTextEl.textContent = "don't repeat answers";
       return true;
-    } else return false;
+    }
   }
+  return false;
 };
 function getRandNumber() {
   return Math.floor(Math.random() * (20 - 1 + 1)) + 1;
