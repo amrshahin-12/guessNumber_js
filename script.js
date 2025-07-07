@@ -114,6 +114,8 @@ document.querySelector('.again').addEventListener('click', function () {
   //reset css
   document.querySelector('body').style.backgroundColor = originalBackground;
   document.querySelector('.number').style.width = originalWidth;
+  //empty array
+  lastInput = [];
 });
 //for testing the game functionality
 console.log(randomNum);
