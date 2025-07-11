@@ -21,6 +21,10 @@ Guess My Number is a classic number guessing game where players try to guess a s
 2. **Open** `index.html` in your web browser
 3. **Start Playing** immediately - no setup required!
 
+### Try It Live! 
+**[Play the game online](https://amrshahin-12.github.io/guessNumber_js/)** 
+
+
 ## 📄 License
 
 This project is created for educational purposes as part of a JavaScript course.
